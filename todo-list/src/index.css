@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.listNav, .tohead{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lost{
+  color: gray;
+  margin: auto 0;
+}
+
+.search{
+  width: 100%;
+  min-width: 400px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.filterBtn{
+  border: gray solid 1px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.filterBtn:first-child{
+  border-radius: 4px 0px 0px 4px;
+  border-right: none;
+}
+
+.filterBtn:last-child{
+  border-radius: 0px 4px 4px 0px;
+  border-left: none;
+}
+
+.active, .filterBtn:hover{
+  background-color: #1eb0c7;
+  border-color: #1eb0c7;
+  color: white;
+}
+
+.myList{
+  width: 100%;
+  padding: 0px;
+}
+
+.itemTodo{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 10px;
+  border: gray solid 1px;
+  border-bottom: none;
+}
+.itemTodo:first-child{
+  border-radius: 4px 4px 0px 0px;
+}
+
+.itemTodo:last-child{
+  border-bottom: gray solid 1px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.item{
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.item:hover{
+ color: #3e74e9;
+}
+
+.deleteBtn{
+  width: 60px;
+  height: 30px;
+  color: red;
+  border: red solid 1px;
+  margin-right: 5px;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover{
+  color: white;
+  background-color: red;
+}
+
+.impBtn{
+  color: green;
+  border: green solid 1px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.impBtn:hover{
+  color: white;
+  background-color: green;
+}
+
+.addSaveNew{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addNew{ 
+  width: 100%;
+  max-width: 525px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.addBtn{
+  width: 50px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.addBtn:hover{
+  background-color: #1eb0c7;
+  border: 1px solid #1eb0c7 ;
+  color: white;
+}
+
+
+
